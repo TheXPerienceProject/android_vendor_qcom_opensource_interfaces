@@ -13,3 +13,7 @@ hidl_interface {
     gen_java: true,
 }
 
+cc_library_headers {
+    name: "libcryptfshw_hidl_headers",
+    export_include_dirs: ["."],
+}
