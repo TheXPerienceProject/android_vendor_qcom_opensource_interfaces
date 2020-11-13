@@ -2,7 +2,7 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.btconfigstore@2.0",
-    root: "vendor.qti.hardware",
+    root: "vendor.qti.hardware.btconfigstore",
     system_ext_specific: true,
     srcs: [
         "types.hal",
